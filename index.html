@@ -1,53 +1,183 @@
+
+
+
+
+
 <!DOCTYPE html>
-<html lang="en">
-      <head>
-      <meta charset="utf-8">
-      <title>Portfolio</title>
-      <link rel="stylesheet" href="css/remodal.css">
-      <link rel="stylesheet" href="css/remodal-default-theme.css">
-      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-      <link rel="stylesheet" href="css/style.css">
+{% load static %}
+<html class="mainpage">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>DesignCenteringPortfolio</title>
+          <link href="https://fonts.googleapis.com/css?family=Antic+Didone|Josefin+Sans|Roboto|Roboto+Condensed" rel="stylesheet">
+        <link rel='icon' href="{% static 'images/wayCompassBig.png' %}" type='image/png' sizes="32x32"/>
+        <link rel="stylesheet" href="{% static 'css/style.css' %}" />
     </head>
+    <body>
+      <div class="tagline">
+     <h1>Welcome to DesignCENTERING<h1>
+       <h2>"Dedicated to Sustainable Industrial Design"</h2>
+     </div>
+     <div class="contactinfo">
+       <h2>Contact</h2>
+     </div>
+        <div class="laptop">
+            <div class="row1">
+                <div class="wayPointer">
+                    <div class="iconsRow1">
+                      <a href="http://https://vast-wave-89193.herokuapp.com/waypoint_app/">
+                               <img class="wayPointerimg" src="images/waypointerOpen.svg" alt="waypointer icon"/>
+                    </div>
+                </div>
+                <div class="designCentering">
+                    <div class="iconsRow1">
+                      <a href="http://www.designCentering.com">
+                              <img class="designCenteringimg" src="images/designCENTERING_iconAlone.svg" alt="designCentering icon"/>
+                          </a>
+                    </div>
+                </div>
+                <div class="Models">
+                    <div class="iconsRow1">
+                        <a href="{% url 'models' %}">
+                            <img class="modelimg"  src="{% static 'images/metalChair.png' %}" alt="chair Link" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+              <div class="centerTag">
+                  <img src="{% static '..images/designCENTERING_iconAlone.svg' %}" class="centerTag"alt="tagline" />
+              </div>
+            <div class="row2">
+                <div class="Renderings">
+                    <div class="iconsRow2">
+                      <a href="http://www.dorsettid.com">
+                              <img class="faucetimg" src="images/waterfall_notext.svg" alt="Rendering of Faucet"/>
+                          </a>
+                        </a>
+                    </div>
+                </div>
+                <div class="Concept">
+                    <div class="iconsRow2">
+                        <a href="{% url 'concept' %}">
+                            <img class="conceptimg" src="{% static 'images/conceptualHear.png' %}" alt="Concept Link" />
+                        </a>
+                    </div>
+                </div>
+                <div class="Forms">
+                    <div class="iconsRow2">
+                        <a href="{% url 'forms' %}">
+                            <img class="formsimg" src="{% static 'images/beerOpenerModel.png' %}" alt="Forms Link" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-  <body>
-
-    <div class="containerTopTwo">
-      <div class="uxUI">
-        <h1>UX/UI</h1>
-      </div>
-
-      <div class="webWork">
-          <h1>Web Design</h1>
-      </div>
-    </div>
-
-    <div class="containerBottomTwo">
-      <div class="wireFrames">
-          <h1>Wire Framing</h1>
-          <p>
-          origami inspired faucet
-          </p>
-      </div>
-
-      <div class="organicAMI">
-        <h1>organicAMI</h1>
-      </div>
-      </div>
-
-    <div class="compass">
-      <div class="wrap">
-        <div class="sticker"></div>
-        <div class="msg">Reveal</div>
-      </div>
-    </div>
 
 
-<script src="script.js"></script>
+        <div class="phone">
+            <div class="mobyTag">
+                <img src="{% static 'images/way_PointerLogo_Tagline.png' %}" class="centerTag"alt="tagline" />
+            </div>
 
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="js/remodal.min.js"></script> -->
-  <!-- </div> page content -->
-  </body>
+            <div class="row1MOBY">
+                <div class="wayPointer">
+                    <div class="iconsMobyRow1">
+                        <a href="{% url 'wayPointers' %}">
+                            <img class="wayPointerimg" src="{% static 'images/1icon_wayPointer.svg' %}" alt="wayPointer Link"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="designCentering">
+                    <div class="iconsMobyRow1">
+                        <a href="{% url 'designCenterings' %}">
+                            <img class="designCenteringimg" src="{% static 'images/2icon_designCentering.svg' %}" alt="designCentering Link" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row2MOBY">
+                <div class="Models">
+                    <div class="iconsMobyRow2">
+                        <a href="{% url 'Modelss' %}">
+                            <img class="Modelsimg"  src="{% static 'images/3icon_Models.svg' %}" alt="Models Link" />
+                        </a>
+                    </div>
+                </div>
+                <div class="Renderings">
+                    <div class="iconsMobyRow2">
+                        <a href="{% url 'Renderingss' %}">
+                            <img class="Renderingsimg"  src="{% static 'images/4icon_Renderings.svg' %}" alt="Renderings Link" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row3MOBY">
+                <div class="Concept">
+                    <div class="iconsMobyRow3">
+                        <a href="{% url 'Concepts' %}">
+                            <img class="Conceptimg" src="{% static 'images/5icon_Concept.svg' %}" alt="Concept Link" />
+                        </a>
+                    </div>
+                </div>
+                <div class="forms">
+                    <div class="iconsMobyRow3">
+                        <a href="{% url 'forms' %}">
+                            <img class="formsimg" src="{% static 'images/6icon_forms.svg' %}" alt="forms Link" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
 
+    <script>
+    $(".wayPointerimg").hover(function(){
+      $(this).attr("src", "{% static 'images/1Icon_wayPointerhover.svg' %}");
+        }, function(){
+          $(this).attr("src", "{% static 'images/1icon_wayPointer.svg' %}");
+    });
+    </script>
+    <script>
+    $(".designCenteringimg").hover(function(){
+      $(this).attr("src", "{% static 'images/2Icon_designCenteringhover.svg' %}");
+        }, function(){
+          $(this).attr("src", "{% static 'images/2icon_designCentering.svg' %}");
+    });
+    </script>
+    <script>
+    $(".Modelsimg").hover(function(){
+      $(this).attr("src", "{% static 'images/3Icon_Modelshover.svg' %}");
+        }, function(){
+          $(this).attr("src", "{% static 'images/3icon_Models.svg' %}");
+    });
+    </script>
+    <script>
+    $(".Renderingsimg").hover(function(){
+      $(this).attr("src", "{% static 'images/4Icon_Renderingshover.svg' %}");
+        }, function(){
+          $(this).attr("src", "{% static 'images/4icon_Renderings.svg' %}");
+    });
+    </script>
+    <script>
+    $(".Conceptimg").hover(function(){
+      $(this).attr("src", "{% static 'images/5Icon_Concepthover.svg' %}");
+        }, function(){
+          $(this).attr("src", "{% static 'images/5icon_Concept.svg' %}");
+    });
+    </script>
+    <script>
+    $(".formsimg").hover(function(){
+      $(this).attr("src", "{% static 'images/6Icon_formshover.svg' %}");
+        }, function(){
+          $(this).attr("src", "{% static 'images/6icon_forms.svg' %}");
+    });
+    </script>
 </html>
