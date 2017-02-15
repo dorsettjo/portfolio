@@ -4,7 +4,7 @@
 
 
 <!DOCTYPE html>
-{% load static %}
+
 <html class="mainpage">
     <head>
         <meta charset="utf-8">
@@ -46,7 +46,7 @@
                 </div>
             </div>
               <div class="centerTag">
-                  <img src="{% static '..images/designCENTERING_iconAlone.svg' %}" class="centerTag"alt="tagline" />
+                  <img src="images/designCENTERING_iconAlone.svg" class="centerTag"alt="tagline" />
               </div>
             <div class="row2">
                 <div class="Renderings">
@@ -59,15 +59,15 @@
                 </div>
                 <div class="Concept">
                     <div class="iconsRow2">
-                        <a href="{% url 'concept' %}">
-                            <img class="conceptimg" src="{% static 'images/conceptualHear.png' %}" alt="Concept Link" />
+                        <a href="http://www.dorsettid.com">
+                            <img class="conceptimg" src=static "images/conceptualHear.png" alt="Concept Link" />
                         </a>
                     </div>
                 </div>
                 <div class="Forms">
                     <div class="iconsRow2">
-                        <a href="{% url 'forms' %}">
-                            <img class="formsimg" src="{% static 'images/beerOpenerModel.png' %}" alt="Forms Link" />
+                        <a href="http://www.dorsettid.com">
+                            <img class="formsimg" src="images/beerOpenerModel.png" alt="Forms Link" />
                         </a>
                     </div>
                 </div>
@@ -85,49 +85,51 @@
             <div class="row1MOBY">
                 <div class="wayPointer">
                     <div class="iconsMobyRow1">
-                        <a href="{% url 'wayPointers' %}">
-                            <img class="wayPointerimg" src="{% static 'images/1icon_wayPointer.svg' %}" alt="wayPointer Link"/>
-                        </a>
+                      <a href="http://https://vast-wave-89193.herokuapp.com/waypoint_app/">
+                               <img class="wayPointerimg" src="images/waypointerOpen.svg" alt="waypointer icon"/>
                     </div>
                 </div>
                 <div class="designCentering">
-                    <div class="iconsMobyRow1">
-                        <a href="{% url 'designCenterings' %}">
-                            <img class="designCenteringimg" src="{% static 'images/2icon_designCentering.svg' %}" alt="designCentering Link" />
-                        </a>
-                    </div>
+
+                      <div class="iconsMobyRow1">
+                        <a href="http://www.designCentering.com">
+                                <img class="designCenteringimg" src="images/designCENTERING_iconAlone.svg" alt="designCentering icon"/>
+                            </a>
+                      </div>
                 </div>
             </div>
             <div class="row2MOBY">
                 <div class="Models">
-                    <div class="iconsMobyRow2">
-                        <a href="{% url 'Modelss' %}">
-                            <img class="Modelsimg"  src="{% static 'images/3icon_Models.svg' %}" alt="Models Link" />
-                        </a>
-                    </div>
+                  <div class="iconsMobyRow2">
+                      <a href="http://www.dorsettid.com">
+                          <img class="modelimg"  src="images/metalChair.png" alt="chair Link" />
+                      </a>
+                  </div>
+              </div>
                 </div>
                 <div class="Renderings">
-                    <div class="iconsMobyRow2">
-                        <a href="{% url 'Renderingss' %}">
-                            <img class="Renderingsimg"  src="{% static 'images/4icon_Renderings.svg' %}" alt="Renderings Link" />
+                  <div class="iconsMobyRow2">
+                    <a href="http://www.dorsettid.com">
+                            <img class="faucetimg" src="images/waterfall_notext.svg" alt="Rendering of Faucet"/>
                         </a>
-                    </div>
+                      </a>
+                  </div>
                 </div>
             </div>
             <div class="row3MOBY">
                 <div class="Concept">
-                    <div class="iconsMobyRow3">
-                        <a href="{% url 'Concepts' %}">
-                            <img class="Conceptimg" src="{% static 'images/5icon_Concept.svg' %}" alt="Concept Link" />
-                        </a>
-                    </div>
+                  <div class="iconsMobyRow3">
+                      <a href="http://www.dorsettid.com">
+                          <img class="conceptimg" src=static "images/conceptualHear.png" alt="Concept Link" />
+                      </a>
+                  </div>
                 </div>
                 <div class="forms">
-                    <div class="iconsMobyRow3">
-                        <a href="{% url 'forms' %}">
-                            <img class="formsimg" src="{% static 'images/6icon_forms.svg' %}" alt="forms Link" />
-                        </a>
-                    </div>
+                  <div class="iconsMobyRow3">
+                      <a href="http://www.dorsettid.com">
+                          <img class="formsimg" src="images/beerOpenerModel.png" alt="Forms Link" />
+                      </a>
+                  </div>
                 </div>
             </div>
         </div>
@@ -138,7 +140,7 @@
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous"></script>
 
-    <script>
+    <!-- <script>
     $(".wayPointerimg").hover(function(){
       $(this).attr("src", "{% static 'images/1Icon_wayPointerhover.svg' %}");
         }, function(){
@@ -179,5 +181,5 @@
         }, function(){
           $(this).attr("src", "{% static 'images/6icon_forms.svg' %}");
     });
-    </script>
+    </script> -->
 </html>
