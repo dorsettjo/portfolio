@@ -611,16 +611,6 @@ p {
         }
     }
 
-    .rightSideWhole h1 {
-        display: block;
-        margin: 0 auto;
-        font-family: 'Roboto', sans-serif;
-        font-size: 36px;
-        color: black;
-        padding-top: 4%;
-        clear: both;
-    }
-
     .row1MOBY .row2MOBY .row3MOBY {
         display: block;
 
@@ -667,26 +657,6 @@ p {
 
     .rightSideWhole .isSecondary {
         font-size: 24px;
-    }
-
-    .goog-te-balloon *,
-    .goog-te-banner *,
-    .goog-te-combo *,
-    .goog-te-ftab *,
-    .goog-te-menu *,
-    .goog-te-menu2 * {
-        font-size: 10px !important;
-    }
-
-    .ConceptPage .leftColumn,
-    .ModelsPage .leftColumn,
-    .RenderingsPage .leftColumn,
-    .designCenteringPage .leftColumn,
-    .formsPage .leftColumn,
-    .waypointerPage .leftColumn {
-        width: 20%;
-        min-height: 100%;
-        // min-height: fill-available;
     }
 
     .goog-te-combo * {
