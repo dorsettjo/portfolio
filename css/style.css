@@ -1,0 +1,40 @@
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  width: 100%;
+  letter-spacing: 2px;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 0;
+  border: none;
+  color: gray;
+  text-transform: capitalize;
+  display: block; }
+
+h2 {
+  font-family: 'Antic', sans-serif;
+  color: #000000; }
+
+h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  border-color: #0f4580;
+  background-color: #000000; }
+
+h4 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+  outline-offset: none;
+  outline-width: none;
+  outline-color: none; }
+
+h5 {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 5%; }
+
+.ux .flyerTopTwo img {
+  width: 45px;
+  border: none; }
+
+/*# sourceMappingURL=style.css.map */
