@@ -37,8 +37,39 @@ h5 {
     padding-left: 5%;
     padding-bottom: 5%;
 }
+// .ux .flyerTopTwo img {
+//     width: 45px;
+//     border: none;
+// }
+//
 
-.ux .flyerTopTwo img {
-    width: 45px;
-    border: none;
+body {
+    background-color: #444;
+    margin: 0;
+}
+
+.topTwo {
+    width: 1005px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.leftColumn,
+.rightColumn {
+    border: 1px solid white;
+    min-height: 750px;
+    color: white;
+}
+
+.leftColumn {
+    width: 250px;
+    background-color: #111;
+    min-height: 100px;
+    position: fixed;
+}
+
+.rightColumn {
+    width: 750px;
+    background-color: #777;
+    float: right;
 }
