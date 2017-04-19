@@ -33,8 +33,44 @@ h5 {
   padding-left: 5%;
   padding-bottom: 5%; }
 
-.ux .flyerTopTwo img {
-  width: 45px;
-  border: none; }
+body {
+  background-color: #444;
+  margin: 0; }
+
+.bottomTwo,
+.topTwo {
+  width: 95%;
+  display: block;
+  margin: 0 auto; }
+
+.tagline img {
+  width: 45%;
+  margin: auto;
+  border: 3px solid #777;
+  display: block; }
+
+.leftColumn,
+.rightColumn {
+  padding: 10px solid red; }
+
+.leftColumn img {
+  width: 45%;
+  background-color: #111;
+  min-height: 100px;
+  display: block;
+  float: left;
+  border: 3px solid #777; }
+
+.rightColumn img {
+  width: 45%;
+  background-color: #111;
+  min-height: 100px;
+  display: block;
+  float: right;
+  border: 3px solid #777; }
+
+.footer {
+  clear: both;
+  align-items: stretch; }
 
 /*# sourceMappingURL=style.css.map */

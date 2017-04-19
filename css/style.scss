@@ -48,28 +48,45 @@ body {
     margin: 0;
 }
 
+.bottomTwo,
 .topTwo {
-    width: 1005px;
+    width: 95%;
+    display: block;
     margin: 0 auto;
-    position: relative;
+    // position: relative;
+}
+
+.tagline img {
+    width: 45%;
+    margin: auto;
+    border: 3px solid #777;
+    display: block;
 }
 
 .leftColumn,
 .rightColumn {
-    border: 1px solid white;
-    min-height: 750px;
-    color: white;
+    padding: 10px solid red;
 }
 
-.leftColumn {
-    width: 250px;
+.leftColumn img {
+    width: 45%;
     background-color: #111;
     min-height: 100px;
-    position: fixed;
+    display: block;
+    float: left;
+    border: 3px solid #777;
 }
 
-.rightColumn {
-    width: 750px;
-    background-color: #777;
+.rightColumn img {
+    width: 45%;
+    background-color: #111;
+    min-height: 100px;
+    display: block;
     float: right;
+    border: 3px solid #777;
+}
+
+.footer {
+    clear: both;
+    align-items: stretch;
 }
