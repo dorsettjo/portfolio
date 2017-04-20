@@ -7,8 +7,9 @@ h1 {
     border-radius: 0;
     border: none;
     color: gray;
-    text-transform: capitalize;
+    // text-transform: capitalize;
     display: block;
+    text-align: center;
 }
 
 h2 {
@@ -57,19 +58,23 @@ body {
 }
 
 .tagline img {
-    width: 45%;
+    width: 40%;
     margin: auto;
     border: 3px solid #777;
     display: block;
+    align-items: center;
+    margin-top: 25%;
 }
 
 .leftColumn,
 .rightColumn {
     padding: 10px solid red;
+    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .leftColumn img {
-    width: 45%;
+    width: 25%;
     background-color: #111;
     min-height: 100px;
     display: block;
@@ -78,7 +83,7 @@ body {
 }
 
 .rightColumn img {
-    width: 45%;
+    width: 25%;
     background-color: #111;
     min-height: 100px;
     display: block;
