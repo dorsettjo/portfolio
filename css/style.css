@@ -33,25 +33,47 @@ h5 {
   padding-left: 5%;
   padding-bottom: 5%; }
 
+.mainPage {
+  height: 140vh;
+  background-image: url("../images/waterfall.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
 body {
   background-color: #444;
   margin: 0; }
 
-.bottomTwo,
+.bottomTwo {
+  width: 95%;
+  display: block;
+  margin: 0 auto; }
+
 .topTwo {
   width: 95%;
   display: block;
   margin: 0 auto; }
 
-.tagline img {
+.center {
+  height: 40%;
+  position: relative; }
+
+.center img {
   width: 40%;
   margin: auto;
   border: 3px solid #777;
   display: block;
   align-items: center;
-  margin-top: 25%; }
+  margin-top: 25%;
+  padding-bottom: absolute;
+  bottom: 50%;
+  transform: translate(0, 35%); }
 
-.leftColumn,
+.leftColumn {
+  padding: 10px solid red;
+  margin-bottom: 20px;
+  margin-top: 30px; }
+
 .rightColumn {
   padding: 10px solid red;
   margin-bottom: 20px;
@@ -73,7 +95,14 @@ body {
   float: right;
   border: 3px solid #777; }
 
+a {
+  color: navy; }
+
 .footer {
+  clear: both;
+  align-items: stretch; }
+
+.topFooter {
   clear: both;
   align-items: stretch; }
 
