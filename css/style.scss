@@ -87,7 +87,7 @@ body {
     transform: translate(0,35%);
 }
 
-.leftColumn1 {
+.left-top-ux-box {
     padding: 10px solid red;
     // margin-bottom: 30px;
     margin-top: 20px;
@@ -96,20 +96,24 @@ body {
     // margin: 0 auto;
     position: absolute;
     padding: 15px;
+    display: block;
+    float: left;
 }
 
-.leftColumn2 {
+.left-bottom-organicAMI-box {
     padding: 10px solid red;
     margin-bottom: 20px;
     // margin-top: 30px;
     width: 40%;
-    display: block;
-    margin: 0 auto;
+    // display: block;
+    // margin: 0 auto;
     position: absolute;
     padding: 15px;
+    display: block;
+    float: left;
 }
 
-.rightColumn1 {
+.right-top-tools-box {
     padding: 10px solid red;
     // margin-bottom: 30px;
     margin-top: 20px;
@@ -121,50 +125,68 @@ body {
     float: right;
 }
 
-.rightColumn2 {
+.right-bottom-wire-box {
     padding: 10px solid red;
     margin-bottom: 20px;
     width: 40%;
-    // display: block;
-    // margin: 0 auto;
+    width: 90%;
+    height: 90%;
     position: absolute;
     padding: 15px;
+    float: right;
 }
 
-.leftColumn1 img {
-    // width: 25%;
+.box {
+    width: 90%;
+    height: 90%;
+}
+
+.ux img {
+    width: 90%;
+    height: 90%;
     background-color: #111;
     min-height: 100px;
     display: block;
     float: left;
     border: 3px solid #777;
+    display: block;
+    margin: 0 auto;
 }
 
-.leftColumn2 img {
-    // width: 25%;
+.organicAMI img {
+    width: 90%;
+    height: 90%;
     background-color: #111;
     min-height: 100px;
     display: block;
     float: left;
     border: 3px solid #777;
+    display: block;
+    margin: 0 auto;
 }
 
-.rightColumn1 img {
-    // width: 25%;
+.tools img {
+    width: 90%;
+    height: 90%;
     background-color: #111;
     min-height: 100px;
     display: block;
     float: right;
     border: 3px solid #777;
+    display: block;
+    margin: 0 auto;
 }
 
-.rightColumn2 img {
-    // width: 25%;
+.wire img {
+    width: 90%;
+    height: 90%;
     background-color: #111;
     min-height: 100px;
     display: block;
     float: right;
     border: 3px solid #777;
+    display: block;
+    margin: 0 auto;
 }
 
 a {
