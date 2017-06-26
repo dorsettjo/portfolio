@@ -48,11 +48,8 @@ body {
   position: relative;
   align-items: center;
   margin: auto 0;
-  border: 3px solid #777;
   display: block;
-  align-items: center;
-  margin-top: 25%;
-  transform: translate(0, 35%); }
+  align-items: center; }
 
 .contact img {
   clear: both;
@@ -79,7 +76,7 @@ body {
 .leftTop {
   padding: 10px solid red;
   margin-top: 20px;
-  width: 45%;
+  width: 50%;
   display: block;
   margin: 0 auto;
   position: relative;
