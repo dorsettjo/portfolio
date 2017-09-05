@@ -52,6 +52,7 @@ body {
   align-items: center; }
 
 .contact img {
+  width: 100px;
   clear: both;
   margin: auto;
   display: block;
@@ -60,67 +61,63 @@ body {
   transform: translate(0, 35%); }
 
 .topHalf {
-  width: 100%;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   display: block;
-  margin-bottom: 45%;
+  margin-bottom: 10px;
   background-color: purple; }
 
 .lowerHalf {
-  width: 100%;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   display: block;
-  margin-top: 45%;
+  margin-top: 10px;
   background-color: green; }
 
 .leftTop {
   padding: 10px solid red;
-  margin-top: 20px;
-  width: 50%;
+  margin-top: 10px;
+  width: 30px;
   display: block;
   margin: 0 auto;
   position: relative;
-  padding: 15px;
+  padding: 5px;
   display: block;
   float: left; }
 
 .leftBottom {
-  padding: 10px solid red;
-  margin-bottom: 40px;
-  width: 45%;
-  width: 90%;
-  height: 90%;
+  padding: 5px solid red;
+  margin-bottom: 10px;
+  width: 30px;
   position: absolute;
-  padding: 15px;
+  padding: 5px;
   float: left; }
 
 .rightTop {
-  padding: 10px solid red;
+  padding: 10px solid green;
   margin-top: 20px;
-  width: 45%;
+  width: 30px;
   display: block;
   margin: 0 auto;
   position: relative;
-  padding: 15px;
+  padding: 5px;
   display: block;
   float: right; }
 
 .rightBottom {
-  padding: 10px solid red;
+  padding: 5px solid green;
   margin-top: 20px;
-  width: 45%;
+  width: 30px;
   display: block;
   margin: 0 auto;
   position: relative;
-  padding: 15px;
+  padding: 5px;
   display: block;
   float: right; }
 
 .ux img {
-  width: 90%;
-  height: 90%;
+  height: 25px;
   background-color: #111;
-  min-height: 100px;
   display: block;
   float: left;
   border: 3px solid #777;
@@ -128,10 +125,8 @@ body {
   margin: 0 auto; }
 
 .organicAMI img {
-  width: 90%;
-  height: 90%;
+  height: 25px;
   background-color: #111;
-  min-height: 100px;
   display: block;
   float: left;
   border: 3px solid #777;
@@ -139,10 +134,8 @@ body {
   margin: 0 auto; }
 
 .tools img {
-  width: 90%;
-  height: 90%;
+  width: 15px;
   background-color: #111;
-  min-height: 100px;
   display: block;
   float: right;
   border: 3px solid #777;
@@ -150,10 +143,8 @@ body {
   margin: 0 auto; }
 
 .wire img {
-  width: 90%;
-  height: 90%;
+  width: 15px;
   background-color: #111;
-  min-height: 100px;
   display: block;
   float: right;
   border: 3px solid #777;
